@@ -18,7 +18,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -31,7 +31,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 200
+                            "ioValue": 300
                         }
                     ]
                 },
