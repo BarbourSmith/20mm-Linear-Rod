@@ -31,7 +31,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 300
+                            "ioValue": 200
                         }
                     ]
                 },
@@ -63,7 +63,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 155.5,
                     "ioValues": []
                 }
             ],
