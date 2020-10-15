@@ -2,7 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|20mm Linear Rod|1|$2.00|www.example.com|
-|Total: |1|$2.00| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $6.00
+ 3xCOG MSRP: $0.00

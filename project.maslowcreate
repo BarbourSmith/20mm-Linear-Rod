@@ -1,103 +1,78 @@
 {
-    "molecules": [
+    "atomType": "Molecule",
+    "name": "20mm Linear Rod",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 510478,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [
         {
-            "atomType": "Molecule",
-            "name": "20mm Linear Rod",
-            "x": 0,
-            "y": 0,
-            "uniqueID": 510478,
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.32064421669106885,
+            "y": 0.42911877394636017,
+            "uniqueID": 643326,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 20
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.5366032210834553,
+            "y": 0.3371647509578544,
+            "uniqueID": 810016,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 200
+                }
+            ]
+        },
+        {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.664714494875549,
+            "y": 0.2950191570881226,
+            "uniqueID": 422858,
             "ioValues": [],
-            "topLevel": true,
-            "allAtoms": [
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 121,
-                    "y": 108,
-                    "uniqueID": 643326,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 20
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 334,
-                    "y": 132,
-                    "uniqueID": 810016,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 200
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 621,
-                    "y": 154,
-                    "uniqueID": 422858,
-                    "ioValues": [],
-                    "selectedColorIndex": "10"
-                },
-                {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 940,
-                    "y": 156,
-                    "uniqueID": 624768,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "20mm Linear Rod",
-                        "numberNeeded": 1,
-                        "costUSD": 2,
-                        "source": "www.example.com",
-                        "totalNeeded": 0
-                    }
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 155.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 643326,
-                    "ap2ID": 810016
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 810016,
-                    "ap2ID": 422858
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 422858,
-                    "ap2ID": 624768
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 624768
-                }
-            ],
-            "fileTypeVersion": 1
+            "selectedColorIndex": "10"
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.9787701317715958,
+            "y": 0.5440613026819924,
+            "ioValues": []
         }
     ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 643326,
+            "ap2ID": 810016
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 810016,
+            "ap2ID": 422858
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 422858
+        }
+    ],
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1,
     "circleSegmentSize": 2
 }
