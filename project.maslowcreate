@@ -28,6 +28,10 @@
             "uniqueID": 810016,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "atoms/510478/643326Circle"
+                },
+                {
                     "name": "height",
                     "ioValue": 200
                 }
@@ -39,7 +43,12 @@
             "x": 0.664714494875549,
             "y": 0.2950191570881226,
             "uniqueID": 422858,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/510478/810016Extrude"
+                }
+            ],
             "selectedColorIndex": "10"
         },
         {
@@ -47,7 +56,13 @@
             "name": "Output",
             "x": 0.9787701317715958,
             "y": 0.5440613026819924,
-            "ioValues": []
+            "uniqueID": 267924,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "atoms/510478/422858Color"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -69,7 +84,8 @@
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 422858
+            "ap1ID": 422858,
+            "ap2ID": 267924
         }
     ],
     "fileTypeVersion": 1,
